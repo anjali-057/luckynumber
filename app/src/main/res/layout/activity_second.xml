@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background2"
+    tools:context=".SecondActivity">
+
+
+    <!-- TextView for displaying the username -->
+    <TextView
+        android:id="@+id/username_text"
+        android:layout_width="395dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="37dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+
+    <!-- TextView for displaying the lucky number -->
+    <TextView
+        android:id="@+id/lucky_number_text"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+    <!-- Button for sharing the lucky number -->
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:text="Share my Lucky Number"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="605dp" />
+
+</RelativeLayout>
